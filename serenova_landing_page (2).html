@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Serenova Travel | Experience Bali</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+body{font-family:Poppins, sans-serif;margin:0;color:#333;background:#f8fcfd}
+
+nav{display:flex;justify-content:space-between;align-items:center;padding:0.5px 8%;background:white;box-shadow:0 2px 10px rgba(0,0,0,0.05);position:sticky;top:0;z-index:10}
+nav .logo{display:flex;align-items:center;font-weight:700;color:#1fa3c6}
+nav .logo img{height:60px;}
+nav a{margin-left:20px;text-decoration:none;color:#333;font-weight:1000}
+
+section{padding:90px 8%;position:relative}
+.overlay{background:rgba(0,0,0,0.45);position:absolute;top:0;left:0;width:100%;height:100%}
+.section-content{position:relative;z-index:2;max-width:1200px;margin:auto;color:white}
+.section-content h2{text-align:center;margin-bottom:40px;font-size:34px}
+
+/* HERO BEACH */
+.hero{height:95vh;background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:white}
+.hero h1{font-size:56px;margin-bottom:10px}
+.hero p{font-size:20px;max-width:600px;margin:auto}
+.hero a{display:inline-block;margin-top:25px;background:#1fa3c6;padding:15px 35px;border-radius:30px;color:white;text-decoration:none;font-weight:600}
+
+/* TEMPLE SECTION */
+.temple{background:url('https://images.unsplash.com/photo-1604999333679-b86d54738315') center/cover no-repeat}
+
+/* MARKET SECTION */
+.market{background:url('https://images.unsplash.com/photo-1602002418082-4e4d2d6b3f09') center/cover no-repeat}
+
+/* RICE TERRACE SECTION */
+.rice{background:url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') center/cover no-repeat}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.card{background:rgba(255,255,255,0.9);padding:25px;border-radius:12px;color:#333}
+
+.package{background:rgba(255,255,255,0.92);padding:30px;border-radius:14px;color:#333}
+.package h3{color:#1fa3c6}
+.price{font-weight:700;margin:10px 0;color:#0b6c86}
+
+.cta{background:#1fa3c6;color:white;text-align:center;padding:70px 20px}
+.cta a{background:white;color:#1fa3c6;padding:15px 35px;border-radius:30px;text-decoration:none;font-weight:600}
+
+.contact{text-align:center;background:#f5fbfd;color:#333}
+footer{background:#0b6c86;color:white;text-align:center;padding:25px}
+
+@media(max-width:768px){
+.hero h1{font-size:36px}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+<img src="serenova_travel_black.png" alt="Serenova Travel Logo">
+<!-- <span>Serenova Travel</span> -->
+</div>
+<div>
+<a href="#packages">Packages</a>
+<a href="#advantages">Advantages</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO BEACH -->
+<section class="hero">
+<div>
+<h1>Experience the Serenity of Bali</h1>
+<p>Your best choice to experience Bali. Discover peaceful beaches, rich culture, and unforgettable island moments.</p>
+<a href="https://wa.me/6289577773214">Book Your Trip</a>
+</div>
+</section>
+
+<!-- WHY BALI RICE TERRACE -->
+<section class="rice">
+<div class="overlay"></div>
+<div class="section-content">
+<h2>Why Visit Bali?</h2>
+<p style="text-align:center;max-width:750px;margin:auto;font-size:18px">
+Bali is the perfect destination to relax and reconnect with nature. From lush rice terraces and sacred temples to peaceful beaches and vibrant local culture, the island offers a truly calming and unforgettable escape.
+</p>
+</div>
+</section>
+
+<!-- ADVANTAGES TEMPLE -->
+<section id="advantages" class="temple">
+<div class="overlay"></div>
+<div class="section-content">
+<h2>Our Advantages</h2>
+<div class="grid">
+<div class="card"><h3>Professional Service</h3><p>Friendly and experienced team ready to assist your journey.</p></div>
+<div class="card"><h3>Reliable Transport</h3><p>Comfortable private car and professional drivers.</p></div>
+<div class="card"><h3>Expert Guides</h3><p>Local guides who know Bali's best hidden gems.</p></div>
+<div class="card"><h3>24/7 Support</h3><p>Quick assistance whenever you need help.</p></div>
+<div class="card"><h3>Memorable Experiences</h3><p>Carefully designed tours for unforgettable memories.</p></div>
+</div>
+</div>
+</section>
+
+<!-- PACKAGES LOCAL MARKET -->
+<section id="packages" class="market">
+<div class="overlay"></div>
+<div class="section-content">
+<h2>Best Packages For You</h2>
+<div class="grid">
+
+<div class="package">
+<img src="/mnt/data/pexels-freestockpro-2166608.jpg" style="width:100%;border-radius:10px;margin-bottom:15px;object-fit:cover;height:220px">
+<h3>Healing & Wellness Journey</h3>
+<p class="price">From USD 520</p>
+<ul>
+<li>4 star hotel for 3 days</li>
+<li>Private car & driver</li>
+<li>3 meals per day</li>
+<li>Professional tour guide</li>
+<li>All entrance tickets</li>
+</ul>
+</div>
+
+<div class="package">
+<img src="/mnt/data/pexels-keins-prajapati-1643462098-27662576.jpg" style="width:100%;border-radius:10px;margin-bottom:15px;object-fit:cover;height:220px">
+<h3>Luxury Bali Escape (4D3N)</h3>
+<p class="price">From USD 700</p>
+<ul>
+<li>Luxury private pool villa</li>
+<li>Private car & driver</li>
+<li>Luxury spa treatment</li>
+<li>3 meals per day</li>
+<li>All entrance tickets</li>
+</ul>
+</div>
+
+<div class="package">
+<img src="/mnt/data/pexels-aronvisuals-1694621.jpg" style="width:100%;border-radius:10px;margin-bottom:15px;object-fit:cover;height:220px">
+<h3>Authentic Bali Experience (3D2N)</h3>
+<p class="price">From USD 320</p>
+<ul>
+<li>Boutique hotel in Ubud</li>
+<li>Private car & driver</li>
+<li>Balinese cooking class</li>
+<li>Cultural village experience</li>
+<li>All entrance tickets</li>
+</ul>
+</div>
+
+</div>
+</div>
+</section>
+
+<div class="cta">
+<h2>Start Your Bali Journey Today</h2>
+<p>Contact Serenova Travel and let us create your perfect Bali escape.</p>
+<br>
+<a href="https://wa.me/6289577773214">Chat on WhatsApp</a>
+</div>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<p>Phone / WhatsApp: +62 895 7777 3214</p>
+<p>Instagram: @serenova.travel</p>
+<p>Website: www.serenovatravel.com</p>
+</section>
+
+<footer>
+<p>© 2026 Serenova Travel. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
